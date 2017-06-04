@@ -1,4 +1,4 @@
 Git is a distributed version control system.
-o;
+Git;2
 hhh;
 Git is free software.
