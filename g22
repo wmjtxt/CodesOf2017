@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char buf[10];
+    int h,m;
+    while(gets(buf)){
+        sscanf(buf,"%d:%d",&h,&m);
+        float a=(h*1.0+m*1.0/60)/12;
+        float b=m*1.0/60;
+        float ans=(a-b)*360;
+        if(ans==360)ans=0;
+        if(ans>=180)ans-=180;
+        printf("%.2f\n",ans);
+    }
+} 

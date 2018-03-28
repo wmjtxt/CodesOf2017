@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1491745463 source:d:\c++Á·Ï°\wd086\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<iomanip>
+

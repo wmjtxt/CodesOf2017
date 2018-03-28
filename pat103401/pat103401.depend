@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1490585947 source:d:\c++Á·Ï°\pat103401\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<iomanip>
+
