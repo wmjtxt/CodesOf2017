@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+ 
+int main()
+{
+    int a,b;
+    float x;
+    while(~scanf("%d:%d",&a,&b))
+    {
+        x=fabs(b*6-(a%12)*30-b/2.0);
+        if(x>180)
+        {
+            x=360-x;
+        }
+        printf("%.2f",x);
+    }
+    return 0;
+}
